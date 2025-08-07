@@ -117,15 +117,15 @@
 
     <section id="payment">
         <h2>طرق الدفع</h2>
-        <p>جرب الدفع التجريبي باستخدام أحد الأزرار التالية:</p>
-        <form action="https://buy.stripe.com/test_dR6aGC2Nz5oC0lG5kl" method="GET" target="_blank">
-            <button type="submit">ادفع عبر Stripe (تجريبي)</button>
-        </form>
-        <br>
-        <form action="https://www.paypal.com/paypalme/faresmohamed38" method="GET" target="_blank">
+        <p>اختر الطريقة الأنسب لك:</p>
+        <form action="https://www.paypal.com/paypalme/faresmohamed38@yahoo.com" method="GET" target="_blank">
             <button type="submit">ادفع عبر PayPal</button>
         </form>
-        <p><small>ستُفتح صفحة الدفع على موقع خارجي (Stripe أو PayPal).</small></p>
+        <br>
+        <form action="https://wa.me/201113765333?text=أرغب+في+الدفع+عبر+فودافون+كاش" method="GET" target="_blank">
+            <button type="submit">الدفع عبر فودافون كاش</button>
+        </form>
+        <p><small>ستُفتح صفحة خارجية لإتمام الدفع.</small></p>
     </section>
 
     <section id="signup">
@@ -153,3 +153,4 @@
     </footer>
 </body>
 </html>
+
