@@ -5,10 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DigitalForsa | بوابتك للعمل الحر</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        header img {
+            width: 100px;
+        }
+        nav {
+            background-color: #0056b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .cta {
+            background-color: #007bff;
+            color: white;
+            padding: 30px;
+            margin-top: 20px;
+        }
+        .cta a {
+            background-color: white;
+            color: #007bff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #eee;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+            gap: 15px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="DigitalForsa Logo">
+        <img src="A_logo_for_\"DigitalForsa\"_is_displayed_on_a_white_.png" alt="DigitalForsa Logo">
         <h1>مرحبًا بك في DigitalForsa</h1>
         <p>بوابتك للعمل الحر والأدوات الرقمية</p>
     </header>
@@ -17,7 +89,9 @@
         <a href="#about">من نحن</a>
         <a href="#tools">أدوات رقمية</a>
         <a href="#freelance">فرص العمل الحر</a>
+        <a href="#signup">إنشاء حساب</a>
         <a href="#contact">تواصل معنا</a>
+        <a href="#payment">الدفع</a>
     </nav>
 
     <section id="about">
@@ -38,7 +112,30 @@
     <section class="cta">
         <h2>ابدأ رحلتك الآن</h2>
         <p>انضم لآلاف الشباب اللي بدأوا طريقهم الحر مع DigitalForsa</p>
-        <a href="#contact">انضم الآن</a>
+        <a href="#signup">انضم الآن</a>
+    </section>
+
+    <section id="payment">
+        <h2>طرق الدفع</h2>
+        <p>جرب الدفع التجريبي باستخدام أحد الأزرار التالية:</p>
+        <form action="https://buy.stripe.com/test_dR6aGC2Nz5oC0lG5kl" method="GET" target="_blank">
+            <button type="submit">ادفع عبر Stripe (تجريبي)</button>
+        </form>
+        <br>
+        <form action="https://www.paypal.com/paypalme/faresmohamed38" method="GET" target="_blank">
+            <button type="submit">ادفع عبر PayPal</button>
+        </form>
+        <p><small>ستُفتح صفحة الدفع على موقع خارجي (Stripe أو PayPal).</small></p>
+    </section>
+
+    <section id="signup">
+        <h2>إنشاء حساب جديد</h2>
+        <form>
+            <input type="text" placeholder="الاسم الكامل" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit">تسجيل</button>
+        </form>
     </section>
 
     <section id="contact">
@@ -56,3 +153,5 @@
     </footer>
 </body>
 </html>
+
+update the home page
