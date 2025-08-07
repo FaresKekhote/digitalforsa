@@ -130,7 +130,7 @@
 
     <section id="signup">
         <h2>إنشاء حساب جديد</h2>
-        <form>
+        <form onsubmit="event.preventDefault(); alert('تم إنشاء الحساب بنجاح!');">
             <input type="text" placeholder="الاسم الكامل" required>
             <input type="email" placeholder="البريد الإلكتروني" required>
             <input type="password" placeholder="كلمة المرور" required>
@@ -153,4 +153,3 @@
     </footer>
 </body>
 </html>
-
