@@ -117,11 +117,15 @@
 
     <section id="payment">
         <h2>طرق الدفع</h2>
-        <p>جرب الدفع التجريبي باستخدام الزر التالي:</p>
+        <p>جرب الدفع التجريبي باستخدام أحد الأزرار التالية:</p>
         <form action="https://buy.stripe.com/test_dR6aGC2Nz5oC0lG5kl" method="GET" target="_blank">
-            <button type="submit">ادفع الآن (تجريبي)</button>
+            <button type="submit">ادفع عبر Stripe (تجريبي)</button>
         </form>
-        <p><small>سيتم فتح صفحة دفع تجريبية باستخدام Stripe (لا يتم خصم أموال حقيقية).</small></p>
+        <br>
+        <form action="https://www.paypal.com/paypalme/faresmohamed38" method="GET" target="_blank">
+            <button type="submit">ادفع عبر PayPal</button>
+        </form>
+        <p><small>ستُفتح صفحة الدفع على موقع خارجي (Stripe أو PayPal).</small></p>
     </section>
 
     <section id="signup">
@@ -149,3 +153,4 @@
     </footer>
 </body>
 </html>
+update the home page
