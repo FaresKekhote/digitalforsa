@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalForsa | بوابتك للعمل الحر</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        header img {
+            width: 100px;
+        }
+        nav {
+            background-color: #0056b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .cta {
+            background-color: #007bff;
+            color: white;
+            padding: 30px;
+            margin-top: 20px;
+        }
+        .cta a {
+            background-color: white;
+            color: #007bff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #eee;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+            gap: 15px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="A_logo_for_\"DigitalForsa\"_is_displayed_on_a_white_.png" alt="DigitalForsa Logo">
+        <h1>مرحبًا بك في DigitalForsa</h1>
+        <p>بوابتك للعمل الحر والأدوات الرقمية</p>
+    </header>
+
+    <nav>
+        <a href="#about">من نحن</a>
+        <a href="#tools">أدوات رقمية</a>
+        <a href="#freelance">فرص العمل الحر</a>
+        <a href="#signup">إنشاء حساب</a>
+        <a href="#contact">تواصل معنا</a>
+        <a href="#payment">الدفع</a>
+    </nav>
+
+    <section id="about">
+        <h2>من نحن؟</h2>
+        <p>DigitalForsa هو مشروع ناشئ يهدف لتمكين الشباب من الدخول في عالم العمل الحر واستخدام الأدوات الرقمية بذكاء لتحقيق دخل مستقل.</p>
+    </section>
+
+    <section id="tools">
+        <h2>أفضل الأدوات الرقمية</h2>
+        <p>نوفر لك قائمة محدثة بأفضل الأدوات المجانية والمدفوعة لمساعدتك في التصميم، البرمجة، التسويق والمزيد.</p>
+    </section>
+
+    <section id="freelance">
+        <h2>ابدأ العمل الحر الآن</h2>
+        <p>نرشدك خطوة بخطوة لتبدأ مسيرتك كمستقل محترف. دروس، منصات، ومصادر شاملة.</p>
+    </section>
+
+    <section class="cta">
+        <h2>ابدأ رحلتك الآن</h2>
+        <p>انضم لآلاف الشباب اللي بدأوا طريقهم الحر مع DigitalForsa</p>
+        <a href="#signup">انضم الآن</a>
+    </section>
+
+    <section id="payment">
+        <h2>طرق الدفع</h2>
+        <p>جرب الدفع التجريبي باستخدام الزر التالي:</p>
+        <form action="https://buy.stripe.com/test_dR6aGC2Nz5oC0lG5kl" method="GET" target="_blank">
+            <button type="submit">ادفع الآن (تجريبي)</button>
+        </form>
+        <p><small>سيتم فتح صفحة دفع تجريبية باستخدام Stripe (لا يتم خصم أموال حقيقية).</small></p>
+    </section>
+
+    <section id="signup">
+        <h2>إنشاء حساب جديد</h2>
+        <form>
+            <input type="text" placeholder="الاسم الكامل" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit">تسجيل</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <form>
+            <input type="text" placeholder="اسمك الكامل" required>
+            <input type="email" placeholder="بريدك الإلكتروني" required>
+            <textarea placeholder="رسالتك" rows="4" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 DigitalForsa. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
